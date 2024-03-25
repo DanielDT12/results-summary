@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <main>
+    <div class="grid-wrapper">
+      <div class="score-card flow">
+        <h1 class="score-card__title">Your Result</h1>
+        <div class="score-card__score">
+          <p class="score-card__large-txt">76</p>
+          <p>of 100</p>
+        </div>
+        <div class="score-card__description">
+          <h2 class="score-card__secondary-title">Great</h2>
+          <p class="score-card__info">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+      
+      <div class="summary-card flow">
+        <h2 class="summary-card__title">Summary</h2>
+
+        <div class="summary-card__category-wrapper">
+          <div class="summary-card__category red">
+            <div class="flex-row gap">
+              <img src="assets/images/icon-reaction.svg" alt="">
+              <h3 class="summary-card__category-title">Reaction</h3>
+            </div>
+            <p class="summary-card__score">
+              <span class="summary-card__score--dark">80</span> / 100</p>
+          </div>
+
+          <div class="summary-card__category yellow">
+            <div class="flex-row gap">
+              <img src="assets/images/icon-memory.svg" alt="">
+              <h3 class="summary-card__category-title">Memory</h3>
+            </div>
+            <p class="summary-card__score">
+              <span class="summary-card__score--dark">92</span> / 100</p>
+          </div>
+
+          <div class="summary-card__category green">
+            <div class="flex-row gap">
+              <img src="assets/images/icon-verbal.svg" alt="">
+              <h3 class="summary-card__category-title">Verbal</h3>
+            </div>
+            <p class="summary-card__score">
+              <span class="summary-card__score--dark">61</span> / 100</p>
+          </div>
+
+          <div class="summary-card__category blue">
+            <div class="flex-row gap">
+              <img src="assets/images/icon-visual.svg" alt="">
+              <h3 class="summary-card__category-title">Visual</h3>
+            </div>
+            <p class="summary-card__score">
+              <span class="summary-card__score--dark">72</span> / 100</p>
+          </div>
+        </div>
+
+        <button class="button">Continue</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="primary-footer">
+    <div class="attribution">
+      <p>Challenge by 
+        <a href="https://www.frontendmentor.io?ref=challenge" 
+        target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/DanielDT12" 
+        target="_blank" 
+        rel="noopener noreferrer">Daniel</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
